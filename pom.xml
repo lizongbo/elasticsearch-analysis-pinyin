@@ -12,7 +12,7 @@
     <inceptionYear>2012</inceptionYear>
 
     <properties>
-        <elasticsearch.version>8.4.1</elasticsearch.version>
+        <elasticsearch.version>8.10.4</elasticsearch.version>
         <maven.compiler.target>1.8</maven.compiler.target>
         <elasticsearch.assembly.descriptor>${project.basedir}/src/main/assemblies/plugin.xml</elasticsearch.assembly.descriptor>
         <elasticsearch.plugin.name>analysis-pinyin</elasticsearch.plugin.name>
@@ -83,8 +83,8 @@
         <dependency>
             <groupId>org.nlpcn</groupId>
             <artifactId>nlp-lang</artifactId>
-            <version>1.7</version>
-            <systemPath>${basedir}/lib/nlp-lang-1.7.jar</systemPath>
+            <version>1.7.9</version>
+            <systemPath>${basedir}/lib/nlp-lang-1.7.9.jar</systemPath>
             <scope>system</scope>
         </dependency>
 
